@@ -9,7 +9,6 @@ void pedirArreglo(int a[], int n_max)  {
     scanf("%d", &a[i] );
   }
     
-  return;
 }
 
   void imprimeArreglo(int a[],int n_max) {
@@ -18,7 +17,6 @@ void pedirArreglo(int a[], int n_max)  {
       printf("%i,", a[i]);
     }
     printf("} \n");
-    return;
   }
 
   int main() {
